@@ -1,6 +1,6 @@
 {
   "name": "@platejs/core",
-  "version": "50.3.9",
+  "version": "51.0.0",
   "description": "The core of Plate – a plugin system for slate",
   "keywords": [
     "contentEditable",
@@ -36,6 +36,12 @@
       "import": "./dist/react/index.mjs",
       "module": "./dist/react/index.mjs",
       "require": "./dist/react/index.js"
+    },
+    "./static": {
+      "types": "./dist/static/index.d.ts",
+      "import": "./dist/static/index.mjs",
+      "module": "./dist/static/index.mjs",
+      "require": "./dist/static/index.js"
     }
   },
   "main": "dist/index.js",
